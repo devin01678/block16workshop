@@ -1,0 +1,11 @@
+function getItemPriceByName(name) {
+  const individualPrice = items.reduce((acc, item) => {
+    return item.price;
+  }, 0);
+  // TODO: Use your knowledge of objects and arrays to get the price of the item passed in
+  return individualPrice;
+
+  const result = items.filter((item) => {
+    return itemId === item.categoryId;
+  });
+  return result;
