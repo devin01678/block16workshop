@@ -9,3 +9,13 @@ function getItemPriceByName(name) {
     return itemId === item.categoryId;
   });
   return result;
+
+  //   const cartObjects = [];
+//   for (let i = 0; i < cart.length; i++) {
+//     for (let j = 0; j < items.length; j++) {
+//       if (cart[i] == items[j].id) {
+//         console.log(items[j].name);
+//       }
+//     }
+//   }
+// }
